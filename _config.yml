@@ -1,7 +1,7 @@
 # Site settings
 title: Shade of Time
 SEOTitle: Make fire controled, and make dangers less.
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-desk.png
 email: 15094359134@163.com
 description: "消防工程师；毕业于中科大；就职于比亚迪（弗迪电池）"
 keyword: "不忘初心，方得始终"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/Rex-Ruby/Rex-Ruby.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Get your own pace of life and step forward firmly!"
-sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: d18b343dd9c7ca49518a                            #生成的clientID
-  clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
+  clientID: xxxxxx                            #生成的clientID
+  clientSecret: xxxxxxx    #生成的clientSecret
   repo: Rex-Ruby.github.io    #仓库名称
   owner: Rex-Ruby    #github用户名
   admin: Rex-Ruby
@@ -96,16 +96,19 @@ service-worker: true
 
 
 
-# 友情链接，请尽量不要删除，谢谢！
+# 友情链接
 friends: [
     {
-        title: "星球国际语",
-        href: "https://globien.gitee.io"
+        title: "消防资源网",
+        href: "https://www.1190119.com/"
     },{
-        title: "星球语互动社区",
-        href: "https://tieba.baidu.com/f?kw=%E6%A0%BC%E7%BD%97%E6%AF%94%E8%A8%80&fr=home"
+        title: "TexPage",
+        href: "https://www.texpage.com/console"
     },{
-        title: "知乎：人造国际语",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
+        title: "Gitee",
+        href: "https://gitee.com/"
+    },{
+        title: "Kimi Chat",
+        href: "https://kimi.moonshot.cn/?utm_campaign=TR_GBdam1S3&utm_content=&utm_medium=B%E7%AB%99&utm_source=CH_QxyNidYM&utm_term="
     }
 ]
